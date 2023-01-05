@@ -1,0 +1,40 @@
+{
+    "name": "oengine/builder", 
+    "description": "GateBuilder Laravel Web Builder. Next generation tool for building templates without coding.like wordpress.",
+    "keywords": [
+      "OEngine",
+      "laravel",
+      "builder",
+      "page builder",
+      "email builder",
+      "form builder",
+      "core",
+      "wordpress ",
+      "wordpress builder",
+      "OEngine Platform"
+    ],
+    "authors": [
+        {
+            "name": "Nguyen Van Hau",
+            "email": "nguyenvanhaudev@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/OEngine/builder",
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "OEngine\\Builder\\": "src",
+            "OEngine\\Builder\\Widget\\": "widgets",
+            "OEngine\\Builder\\Database\\Factories\\": "database/factories",
+            "OEngine\\Builder\\Database\\Seeders\\": "database/seeders"
+        }
+    }
+}

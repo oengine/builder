@@ -1,0 +1,14 @@
+{
+    "name": "builder",
+    "alias": "builder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "namespace":"OEngine\\Builder",
+    "providers": [
+        "OEngine\\Builder\\BuilderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
